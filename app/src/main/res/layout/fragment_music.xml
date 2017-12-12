@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:id="@+id/fl_music_toolbar"
+        android:background="@color/CS_delete_red"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include layout="@layout/book_and_music_bar"/>
+    </FrameLayout>
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:background="@color/actionbar_btn_color"
+        android:id="@+id/music_spl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/musicPage_rv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>
