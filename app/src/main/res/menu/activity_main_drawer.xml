@@ -4,35 +4,36 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/group_item_github"
-            android:icon="@drawable/ic_vector_github_grey"
-            android:title="项目主页"/>
+            android:icon="@drawable/defaulttouxiang"
+            android:checkable="true"
+            android:title="@string/me"/>
         <item
             android:id="@+id/group_item_more"
-            android:icon="@drawable/ic_vector_more"
-            android:title="更多内容"/>
+            android:icon="@drawable/xiaoxi"
+            android:title="@string/mine_message"/>
 
         <item
             android:id="@+id/group_item_qr_code"
-            android:icon="@drawable/ic_vector_qr_code"
-            android:title="二维码"/>
+            android:icon="@drawable/erweima"
+            android:title="@string/my_rq_code"/>
 
         <item
             android:id="@+id/group_item_share_project"
-            android:icon="@drawable/ic_vector_share"
-            android:title="分享项目"/>
+            android:icon="@drawable/shoucang2"
+            android:title="@string/collection"/>
     </group>
 
-    <item android:title="选项">
+    <item android:title="@string/option">
         <menu>
             <item
                 android:id="@+id/item_model"
-                android:icon="@drawable/ic_vetor_setting"
-                android:title="夜间模式"/>
+                android:icon="@drawable/setting"
+                android:title="@string/nocturnal_pattern"/>
 
             <item
                 android:id="@+id/item_about"
-                android:icon="@drawable/ic_vector_about"
-                android:title="关于"/>
+                android:icon="@drawable/about"
+                android:title="@string/about"/>
         </menu>
     </item>
 

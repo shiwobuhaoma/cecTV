@@ -1,7 +1,6 @@
 package com.tv.cec.base;
 
 import android.content.Context;
-import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -9,7 +8,6 @@ import android.util.SparseArray;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.LinearLayout;
 
 import com.tv.cec.utils.LogUtil;
 
@@ -17,6 +15,7 @@ import java.lang.reflect.Field;
 
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
+import cn.jzvd.JZVideoPlayer;
 
 /**
  * 懒加载模式
@@ -69,6 +68,7 @@ public abstract class BaseFragmentLazyLoad extends Fragment {
             lazyLoadData();
 
         } else {
+            JZVideoPlayer.releaseAllVideos();
             isVisible = false;
         }
         super.setUserVisibleHint(isVisibleToUser);

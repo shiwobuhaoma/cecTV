@@ -3,9 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cectv.iml" filepath="$PROJECT_DIR$/cectv.iml" />
+      <module fileurl="file://C:\Studio\cecTV\cec\app\app.iml" filepath="C:\Studio\cecTV\cec\app\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/cec.iml" filepath="$PROJECT_DIR$/.idea/cec.iml" />
+      <module fileurl="file://C:\Studio\cecTV\cec\cectv.iml" filepath="C:\Studio\cecTV\cec\cectv.iml" />
       <module fileurl="file://$PROJECT_DIR$/recyclerviewlibrary/recyclerviewlibrary.iml" filepath="$PROJECT_DIR$/recyclerviewlibrary/recyclerviewlibrary.iml" />
+      <module fileurl="file://C:\Studio\cecTV\cec\recyclerviewlibrary\recyclerviewlibrary.iml" filepath="C:\Studio\cecTV\cec\recyclerviewlibrary\recyclerviewlibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/rxretrofitlibrary/rxretrofitlibrary.iml" filepath="$PROJECT_DIR$/rxretrofitlibrary/rxretrofitlibrary.iml" />
+      <module fileurl="file://C:\Studio\cecTV\cec\rxretrofitlibrary\rxretrofitlibrary.iml" filepath="C:\Studio\cecTV\cec\rxretrofitlibrary\rxretrofitlibrary.iml" />
     </modules>
   </component>
 </project>

@@ -17,7 +17,6 @@ import com.tv.cec.mvp.fragment.BookFragment;
 import com.tv.cec.mvp.fragment.HomeFragment;
 import com.tv.cec.mvp.fragment.MusicFragment;
 import com.tv.cec.mvp.fragment.MyFragment;
-import com.tv.cec.mvp.fragment.TvFragment;
 
 import java.util.ArrayList;
 
@@ -83,7 +82,10 @@ public class HomeActivity2 extends BaseActivity {
             }
         });
         mivMenu = (ImageView) nvMenu.getHeaderView(0).findViewById(R.id.miv_menu);
+
         civHead = (ImageView) nvMenu.getHeaderView(0).findViewById(R.id.civ_head);
+        
+//        Glide.with(this).load(R.drawable.touxiang).into(civHead);
         civHead.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -91,6 +93,7 @@ public class HomeActivity2 extends BaseActivity {
                 bottomNavigationBar.selectTab(4);
             }
         });
+
     }
 
     /**

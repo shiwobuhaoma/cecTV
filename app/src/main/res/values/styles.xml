@@ -7,6 +7,7 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="clockBackground">@android:color/white</item>
         <item name="clockTextColor">@android:color/black</item>
+
     </style>
 
     <!--夜间主题-->
@@ -18,6 +19,12 @@
         <item name="clockTextColor">@color/color8A9599</item>
     </style>
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+    </style>
+    <style name="ShuiBoWen" parent="@style/AppTheme">
+        <item name="colorControlHighlight">@color/colorPrimary</item>
         <!--<item name="colorPrimary">@color/colorPrimary</item>-->
         <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
         <!--<item name="colorAccent">@color/colorAccent</item>-->
@@ -471,9 +478,7 @@
         <item name="android:background">@drawable/no_wifi_setting_button</item>
     </style>
     <style name="notification_text2" parent="@android:style/TextAppearance.StatusBar.EventContent" />
-    <style name="notification_text2_m" parent="@android:style/TextAppearance.Material.Notification.Info" />
     <style name="notificaton_title" parent="@android:style/TextAppearance.StatusBar.EventContent.Title" />
-    <style name="notificaton_title_m" parent="@android:style/TextAppearance.Material.Notification.Title" />
     <style name="plugin_bottom_button">
         <item name="android:textColor">@color/button_text_color</item>
         <item name="android:gravity">center</item>

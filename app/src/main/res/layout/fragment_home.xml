@@ -70,5 +70,5 @@
         android:layout_gravity="bottom|end"
         android:layout_margin="16dp"
         app:backgroundTint="@color/CS_delete_red"
-        app:srcCompat="@drawable/ic_vector_github_white"/>
+        app:srcCompat="@drawable/earth"/>
 </android.support.design.widget.CoordinatorLayout>
