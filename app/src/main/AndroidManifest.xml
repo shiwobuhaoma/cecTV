@@ -90,6 +90,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.tv.cec.mvp.activity.HomeActivity"/>
+        <activity android:name="com.tv.cec.mvp.activity.LoginActivity"/>
         <activity android:name="com.tv.cec.mvp.activity.HomeActivity2"
             android:theme="@style/ShuiBoWen"
             android:configChanges="orientation|screenSize|keyboardHidden"

@@ -8,8 +8,6 @@
     android:fitsSystemWindows="true"
     android:layout_gravity="bottom"
     android:background="@color/CS_delete_red"
-    android:theme="@style/ToolbarTheme"
-    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
     app:titleTextAppearance="@style/Toolbar.TitleText">
 
     <!--<TextView
@@ -24,7 +22,7 @@
         android:id="@+id/toolbar_music_title"
         android:text="@string/me"
         android:gravity="center"
-        android:textSize="16sp"
+        android:textSize="20sp"
         android:textColor="@color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />

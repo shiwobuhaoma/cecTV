@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/backgound_fcfcfc"
+    android:foreground="?android:attr/selectableItemBackground"
     android:orientation="vertical">
     <FrameLayout
         android:id="@+id/fl_my_toolbar"
@@ -12,54 +12,60 @@
         <include layout="@layout/my_bar"/>
     </FrameLayout>
 
-    <com.zhxu.recyclerview.layoutmanager.PullRecyclerViewGroup
-
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <include
-                layout="@layout/userinfo_my"/>
+            <RelativeLayout
 
-            <GridView
-                android:id="@+id/gv_title_grid"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:stretchMode="columnWidth"
-                android:layout_marginLeft="@dimen/ui_16_dp"
-                android:layout_marginRight="@dimen/ui_16_dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="@dimen/ui_10_dp"/>
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/my_portrait"
+                    android:background="@drawable/touxiang"
+                    android:layout_centerInParent="true"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp" />
+                <TextView
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/my_portrait"
+                    android:textColor="@android:color/black"
+                    android:text="@string/my_name"
+                    android:textSize="@dimen/cs_text_size_16sp"
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
 
             <View
-                android:layout_width="fill_parent"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
                 android:layout_height="8.0dip"
-                android:background="@color/black_alpha_03" />
-
+                android:background="@color/black_alpha_03"
+                />
             <com.tv.cec.view.widget.MyEnterLayout
                 android:id="@+id/book_game_layout"
+                android:clickable="true"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/list_item_normal_selector" />
+                />
 
             <com.tv.cec.view.widget.MyEnterLayout
                 android:id="@+id/buy_layout"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/list_item_normal_selector" />
+                />
 
             <com.tv.cec.view.widget.MyEnterLayout
                 android:id="@+id/huaban_layout"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/list_item_normal_selector" />
+                 />
 
             <View
                 android:layout_width="fill_parent"
@@ -71,27 +77,26 @@
                 android:id="@+id/setting_computer"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/list_item_normal_selector" />
+                />
 
             <com.tv.cec.view.widget.MyEnterLayout
                 android:id="@+id/faq_layout"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/list_item_normal_selector" />
+                />
 
             <com.tv.cec.view.widget.MyEnterLayout
                 android:id="@+id/check_update_layout"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/list_item_normal_selector" />
+               />
 
             <com.tv.cec.view.widget.MyEnterLayout
                 android:id="@+id/about_layout"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/list_item_normal_selector" />
+                />
         </LinearLayout>
     </ScrollView>
-    </com.zhxu.recyclerview.layoutmanager.PullRecyclerViewGroup>
 
 </LinearLayout>

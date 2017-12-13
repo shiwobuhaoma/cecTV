@@ -166,11 +166,6 @@
                 </LinearLayout>
             </LinearLayout>
 
-            <ImageView
-                android:id="@+id/divider_line_bottom"
-                android:layout_width="fill_parent"
-                android:layout_height="@dimen/line_width"
-                android:background="@drawable/list_divider_holo_light" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

@@ -954,4 +954,6 @@
     <string name="collection">我的收藏</string>
     <string name="option">选项</string>
     <string name="nocturnal_pattern">夜间模式</string>
+    <string name="my_name">你的名字</string>
+    <string name="follow">关注</string>
 </resources>

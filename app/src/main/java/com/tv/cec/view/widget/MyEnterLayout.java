@@ -1,6 +1,7 @@
 package com.tv.cec.view.widget;
 
 import android.content.Context;
+import android.support.v7.widget.CardView;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
@@ -16,37 +17,23 @@ import com.tv.cec.utils.DensityUtil;
 
 public class MyEnterLayout extends LinearLayout {
     private TextView setItemTitle;
-    private ImageView devider_line;
-    private RelativeLayout item_layout;
+    private CardView item_layout;
 
     public MyEnterLayout(Context paramContext) {
         super(paramContext);
-        a(paramContext);
+        init(paramContext);
     }
 
     public MyEnterLayout(Context paramContext, AttributeSet paramAttributeSet) {
         super(paramContext, paramAttributeSet);
-        a(paramContext);
+        init(paramContext);
     }
 
-    private void a(Context context) {
-        setOrientation(LinearLayout.VERTICAL);
+    private void init(Context context) {
         View view = ((LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE)).inflate(R.layout.settings_my_normal_item, this);
-        item_layout = ((RelativeLayout) view.findViewById(R.id.item_layout));
-        setPadding(DensityUtil.getDensity(context, 16), DensityUtil.getDensity(context, 0));
+        item_layout = ((CardView) view.findViewById(R.id.item_layout));
         setItemTitle = ((TextView) item_layout.findViewById(R.id.setItemTitle));
-        devider_line = ((ImageView) view.findViewById(R.id.devider_line));
     }
-
-    public void a() {
-        devider_line.setVisibility(View.VISIBLE);
-    }
-
-    public void setPadding(int paramInt1, int paramInt2) {
-        item_layout.setPadding(paramInt1, 0, paramInt2, 0);
-    }
-
-
 
     public void setTitle(String title) {
         if(!TextUtils.isEmpty(title))
