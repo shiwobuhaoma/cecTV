@@ -12,8 +12,9 @@ import android.widget.TextView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.bitmap_recycle.BitmapPool;
 import com.bumptech.glide.load.resource.bitmap.BitmapTransformation;
+import com.tv.cec.R;
 import com.tv.cec.bean.NewAct;
-import com.tv.cec.cectv.R;
+
 import com.tv.cec.utils.GlideRoundTransform;
 
 import java.util.ArrayList;

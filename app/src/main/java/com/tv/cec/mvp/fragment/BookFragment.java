@@ -9,8 +9,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.tv.cec.R;
 import com.tv.cec.adapter.FixPagerAdapter;
-import com.tv.cec.cectv.R;
 
 import java.util.ArrayList;
 

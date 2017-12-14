@@ -8,10 +8,10 @@ import android.support.v7.widget.RecyclerView;
 import android.util.TypedValue;
 import android.view.View;
 
+import com.tv.cec.R;
 import com.tv.cec.adapter.MusicPageAdapter;
 import com.tv.cec.base.BaseFragmentLazyLoad;
 import com.tv.cec.bean.MusicBean;
-import com.tv.cec.cectv.R;
 
 import java.util.ArrayList;
 import java.util.Random;

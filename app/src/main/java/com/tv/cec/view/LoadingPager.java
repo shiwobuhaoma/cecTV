@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.FrameLayout;
 
-import com.tv.cec.cectv.R;
+import com.tv.cec.R;
 import com.tv.cec.utils.UIUtils;
 
 

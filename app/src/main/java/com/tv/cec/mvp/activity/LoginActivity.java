@@ -5,9 +5,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.tv.cec.R;
 import com.tv.cec.base.BaseActivity;
 import com.tv.cec.bean.User;
-import com.tv.cec.cectv.R;
 import com.tv.cec.mvp.presenter.LoginPresenterImp;
 import com.tv.cec.mvp.view.LoginView;
 

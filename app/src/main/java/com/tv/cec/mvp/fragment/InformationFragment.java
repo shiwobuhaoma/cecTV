@@ -8,10 +8,10 @@ import android.support.v7.widget.RecyclerView;
 import android.util.TypedValue;
 import android.view.View;
 
+import com.tv.cec.R;
 import com.tv.cec.adapter.FirstPageNewActAdapter;
 import com.tv.cec.base.BaseFragmentLazyLoad;
 import com.tv.cec.bean.NewAct;
-import com.tv.cec.cectv.R;
 import com.tv.cec.utils.GlideImageLoader;
 import com.youth.banner.Banner;
 import com.youth.banner.BannerConfig;

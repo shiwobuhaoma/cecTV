@@ -3,9 +3,9 @@ package com.tv.cec.mvp.fragment;
 import android.os.Bundle;
 import android.view.View;
 
+import com.tv.cec.R;
 import com.tv.cec.base.BaseFragment;
 import com.tv.cec.base.BaseFragmentLazyLoad;
-import com.tv.cec.cectv.R;
 import com.tv.cec.utils.UIUtils;
 
 import butterknife.ButterKnife;

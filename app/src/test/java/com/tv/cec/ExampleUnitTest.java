@@ -1,4 +1,4 @@
-package com.tv.cec.cectv;
+package com.tv.cec;
 
 import org.junit.Test;
 

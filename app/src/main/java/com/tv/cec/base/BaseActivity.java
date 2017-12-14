@@ -15,7 +15,8 @@ import android.view.inputmethod.InputMethodManager;
 
 
 import com.trello.rxlifecycle.components.support.RxAppCompatActivity;
-import com.tv.cec.cectv.R;
+
+import com.tv.cec.R;
 import com.tv.cec.mvpbase.BaseView;
 import com.tv.cec.utils.AppActivityManager;
 import com.tv.cec.utils.ToastUtils;

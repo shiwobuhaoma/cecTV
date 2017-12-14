@@ -9,8 +9,8 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.tv.cec.App;
+import com.tv.cec.R;
 import com.tv.cec.bean.MyGvBean;
-import com.tv.cec.cectv.R;
 
 import java.util.List;
 

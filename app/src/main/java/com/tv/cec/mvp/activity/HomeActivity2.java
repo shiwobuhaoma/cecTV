@@ -10,9 +10,9 @@ import android.widget.ImageView;
 
 import com.ashokvarma.bottomnavigation.BottomNavigationBar;
 import com.ashokvarma.bottomnavigation.BottomNavigationItem;
+import com.tv.cec.R;
 import com.tv.cec.adapter.SeclectPageAdapter;
 import com.tv.cec.base.BaseActivity;
-import com.tv.cec.cectv.R;
 import com.tv.cec.mvp.fragment.BookFragment;
 import com.tv.cec.mvp.fragment.HomeFragment;
 import com.tv.cec.mvp.fragment.MusicFragment;

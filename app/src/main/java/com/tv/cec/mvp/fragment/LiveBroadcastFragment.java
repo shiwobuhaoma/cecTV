@@ -1,8 +1,8 @@
 package com.tv.cec.mvp.fragment;
 
 import com.bumptech.glide.Glide;
+import com.tv.cec.R;
 import com.tv.cec.base.BaseFragmentLazyLoad;
-import com.tv.cec.cectv.R;
 
 import butterknife.BindView;
 import cn.jzvd.JZVideoPlayerStandard;

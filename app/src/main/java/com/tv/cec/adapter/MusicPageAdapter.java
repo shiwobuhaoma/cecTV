@@ -9,9 +9,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.tv.cec.R;
 import com.tv.cec.bean.MusicBean;
 
-import com.tv.cec.cectv.R;
 
 import java.util.ArrayList;
 

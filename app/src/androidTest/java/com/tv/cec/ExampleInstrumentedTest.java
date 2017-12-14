@@ -1,4 +1,4 @@
-package com.tv.cec.cectv;
+package com.tv.cec;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

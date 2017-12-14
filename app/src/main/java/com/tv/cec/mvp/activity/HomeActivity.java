@@ -6,10 +6,10 @@ import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
 import android.widget.LinearLayout;
 
+import com.tv.cec.R;
 import com.tv.cec.adapter.FixPagerAdapter;
 import com.tv.cec.base.BaseActivity;
 import com.tv.cec.base.BaseFragment;
-import com.tv.cec.cectv.R;
 import com.tv.cec.factory.FragmentFactory;
 
 import java.util.ArrayList;

@@ -4,8 +4,8 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.widget.TextView;
 
+import com.tv.cec.R;
 import com.tv.cec.base.BaseFragmentLazyLoad;
-import com.tv.cec.cectv.R;
 
 /**
  * 游戏

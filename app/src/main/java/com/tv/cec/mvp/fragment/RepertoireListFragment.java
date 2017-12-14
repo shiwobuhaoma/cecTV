@@ -1,7 +1,7 @@
 package com.tv.cec.mvp.fragment;
 
+import com.tv.cec.R;
 import com.tv.cec.base.BaseFragmentLazyLoad;
-import com.tv.cec.cectv.R;
 
 /**
  * 节目单

@@ -10,10 +10,10 @@ import android.util.TypedValue;
 import android.view.View;
 import android.widget.FrameLayout;
 
+import com.tv.cec.R;
 import com.tv.cec.adapter.MusicPageAdapter;
 import com.tv.cec.base.BaseFragmentLazyLoad;
 import com.tv.cec.bean.MusicBean;
-import com.tv.cec.cectv.R;
 
 import java.util.ArrayList;
 import java.util.Random;

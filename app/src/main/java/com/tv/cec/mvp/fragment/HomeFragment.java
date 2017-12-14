@@ -9,9 +9,9 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
+import com.tv.cec.R;
 import com.tv.cec.adapter.FixPagerAdapter;
 import com.tv.cec.base.BaseFragmentLazyLoad;
-import com.tv.cec.cectv.R;
 
 import java.util.ArrayList;
 

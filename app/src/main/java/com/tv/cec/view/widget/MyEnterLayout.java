@@ -11,7 +11,7 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.tv.cec.cectv.R;
+import com.tv.cec.R;
 import com.tv.cec.utils.DensityUtil;
 
 

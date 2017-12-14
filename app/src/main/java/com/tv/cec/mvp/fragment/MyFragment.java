@@ -10,8 +10,8 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.Toast;
 
+import com.tv.cec.R;
 import com.tv.cec.bean.MyGvBean;
-import com.tv.cec.cectv.R;
 import com.tv.cec.mvp.activity.LoginActivity;
 import com.tv.cec.utils.UIUtils;
 import com.tv.cec.view.widget.MyEnterLayout;
